@@ -101,7 +101,7 @@ class ThemeCubit extends Cubit<ThemeData> {
           borderSide: const BorderSide(width: 0, color: Colors.white),
           borderRadius: BorderRadius.circular(10)),
       focusedBorder: OutlineInputBorder(
-          borderSide: BorderSide(width: 0.7, color: primaryColor),
+          borderSide: BorderSide(width: 0.7, color: secondaryColor),
           borderRadius: BorderRadius.circular(10)),
       errorBorder: OutlineInputBorder(
           borderSide: const BorderSide(width: 0.7, color: Colors.redAccent),

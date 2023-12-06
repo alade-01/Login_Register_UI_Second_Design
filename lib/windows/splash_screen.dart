@@ -50,30 +50,6 @@ class _SplashScreenState extends State<SplashScreen>
                   width: 200,
                   height: 152.16,
                   fit: BoxFit.contain,
-                ),
-                Row(
-                  children: [
-                    Padding(
-                      padding: const EdgeInsets.only(right: 5.0),
-                      child: Text(
-                        "Explora",
-                        style: Theme.of(context)
-                            .textTheme
-                            .labelMedium!
-                            .copyWith(
-                                color: Colors.white,
-                                fontSize: 24,
-                                fontWeight: FontWeight.w700),
-                        textAlign: TextAlign.center,
-                      ),
-                    ),
-                    SvgPicture.asset(
-                      "res/images/splashIconSecond.svg",
-                      width: 40,
-                      height: 16.59,
-                      fit: BoxFit.contain,
-                    ),
-                  ],
                 )
               ]),
             ),
@@ -94,7 +70,7 @@ class _SplashScreenState extends State<SplashScreen>
             child: Column(
               children: [
                 Text(
-                  "Welcome to Explora",
+                  "Welcome to Travello",
                   style: Theme.of(context).textTheme.labelMedium!.copyWith(
                       color: Colors.white,
                       fontSize: 14,
